@@ -4,7 +4,6 @@ while  positive_numbers < len(my_list):
     if my_list[positive_numbers] == 0:
         positive_numbers += 1
         continue
-        positive_numbers += 1
     if my_list[positive_numbers] < 0:
         break
     print(my_list[positive_numbers])
